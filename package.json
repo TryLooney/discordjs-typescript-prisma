@@ -1,0 +1,41 @@
+{
+  "name": "discordjs-typescript-prisma",
+  "version": "1.0.0",
+  "description": "Discord Bot Template using Discord.JS, TypeScript and Prisma",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "start:dev": "ts-node-dev src/index.ts",
+    "start:prod": "node dist/index.js",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TryLooney/discordjs-typescript-prisma.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord bot template",
+    "template bot"
+  ],
+  "author": "Luis F. <try.looney@gmail.com> (https://looney.vercel.app/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TryLooney/discordjs-typescript-prisma/issues"
+  },
+  "homepage": "https://github.com/TryLooney/discordjs-typescript-prisma#readme",
+  "dependencies": {
+    "@prisma/client": "^4.8.1",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "prisma": "^4.8.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
